@@ -6,19 +6,24 @@
 
 
 body {
+
     width: 100%;
     height: 100%;
     background-color: #7a7a7a;
 }
 
+
 .foto-perfil img {
+    display: block;
     margin-top: 10px;
     position: absolute;
     left: 15px;
     border-radius: 50%;
     width: 150px;
-    height: 150px;
+    border: 5px solid white;
 }
+
+
 
 .container {
     background-color: #969696;
@@ -27,40 +32,54 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
 .name {
     margin-top: 0px;
     text-align: center;
     font-size: 25px;
-    right: 100px;   
-    position:static;
+    right: 100px;
+    position: static;
 }
+
 .name h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     animation: neon 2s infinite;
-    
+
 }
+
 @keyframes neon {
-    0%, 39%, 41%, 59%,61%,100%{
-        text-shadow: 
-        white 0 0 12px,
-        #2E86C1 0 0 24px,
-        #2E86C1 0 0 36px;
+
+    0%,
+    39%,
+    41%,
+    59%,
+    61%,
+    100% {
+        text-shadow:
+            white 0 0 12px,
+            #2E86C1 0 0 24px,
+            #2E86C1 0 0 36px;
     }
-    40%, 60%{
+
+    40%,
+    60% {
         text-shadow: none;
     }
 }
+
 .container-principal {
     margin-top: 6px;
     height: 80vh;
     color: white;
     background-image: url(../assest/img/header1.jpg);
 }
+
 .container-principal h2 {
     text-align: center;
     top: 150px;
 }
+
 .links {
     display: inline-block;
     letter-spacing: 2px;
@@ -84,11 +103,13 @@ body {
     margin-top: 2px;
     color: white;
 }
+
 .card {
     width: 30%;
     margin: auto;
     display: inline;
 }
+
 .curso {
     display: inline-block;
     box-sizing: border-box;
@@ -97,15 +118,17 @@ body {
     bottom: -180px;
     padding: 2px;
     border-radius: 5%;
-    border: 4px solid white ;
+    border: 4px solid white;
 }
+
 .card h2 {
     font-size: 50px;
     position: relative;
     bottom: -180px;
     text-shadow: 2px 2px 3px blue;
 }
-.sub-title{
+
+.sub-title {
     margin-top: 1px;
     text-align: center;
     font-size: 25px;
@@ -113,6 +136,7 @@ body {
     color: hsl(210, 29%, 13%);
     text-transform: uppercase;
 }
+
 .roda-pe {
     background-color: #969696;
     height: 30px;
@@ -122,24 +146,29 @@ body {
     padding: 25px;
     margin-top: 10px;
 }
-.social-midia{
+
+.social-midia {
     font-size: 55px;
     position: absolute;
     left: 40px;
-    top:600px;
+    top: 600px;
     line-height: 2px;
     margin-left: 3px;
-    
+
 }
+
 .icones {
-    display: inline-block;   
+    display: inline-block;
 }
-.icones a{
-    color:white;
+
+.icones a {
+    color: white;
 }
-.fa-github{
+
+.fa-github {
     color: black;
 }
-.fa-linkedin-in{
+
+.fa-linkedin-in {
     color: #0e76a8;
 }
