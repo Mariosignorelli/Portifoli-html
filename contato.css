@@ -64,3 +64,43 @@ iframe{
  text-align: center;
  font-size: 35px;
 }
+.btn-whatsapp{
+    position: absolute;
+    outline: none;
+    top: 170px;
+    right: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: #34af23;
+    color: #fff;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+
+    animation-name: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+a{
+    color: inherit;
+}
+@keyframes pulsar{
+    0%{
+        width: 60px;
+        height: 60px;
+    }
+    100%{
+        width: 80px;
+        height: 80px;
+    }
+}
+.links{
+    text-align: center;
+    justify-content:space-between;
+}
